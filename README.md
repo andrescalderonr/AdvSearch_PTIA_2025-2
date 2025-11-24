@@ -1,8 +1,13 @@
-# ESCUELA COLOMBIANA DE INGENIERÍA
+# BÚSQUEDA ADVERSARIA
 
-# PRINCIPIOS Y TECNOLOGÍAS IA 2025-2
+**ESCUELA COLOMBIANA DE INGENIERÍA**
 
-## BÚSQUEDA ADVERSARIA
+**PRINCIPIOS Y TECNOLOGÍAS IA 2025-2**
+
+## Integrantes
+- Andres Felipe Calderon Ramirez - [andrescalderonr](https://github.com/andrescalderonr)
+- Santiago Botero Garcia - [LePeanutButter](https://github.com/LePeanutButter)
+
 
 ## LABORATORIO 3/4
 
@@ -59,7 +64,7 @@ from abc import ABC, abstractmethod
 from __future__ import annotations
 ```
 
-## PARTE I. IMPLEMENTACIÓN DE UN JUEGO CON DOS JUGADORES {#parte-i-implementación-de-un-juego-con-dos-jugadores}
+## PARTE I. IMPLEMENTACIÓN DE UN JUEGO CON DOS JUGADORES
 
 Implementar un juego para dos jugadores (ambos agentes) del tipo de
 turnos o estados (teniendo en cuenta la clase *StateGame*).
@@ -134,7 +139,7 @@ lo modela considerando la especificación dada.
 # Implementar la clase abstracta y documentar los métodos implementados
 ```
 
-## PARTE II. IMPLEMENTACIÓN DE BÚSQUEDA: MINIMAX $\alpha$ - $\beta$ {#parte-ii-implementación-de-búsqueda-minimax-alpha---beta}
+## PARTE II. IMPLEMENTACIÓN DE BÚSQUEDA: MINIMAX $\alpha$ - $\beta$
 
 Implementar la lógica de búsqueda adversaria para que el jugador tome
 una decisión y generé una acción (la mejor posible)
