@@ -28,10 +28,11 @@ class AlphaBetaEngine:
 
         best_state = None
         best_value = float("-inf")
-        alpha, beta = float("-inf"), float("inf")
+        inf = 10 ** 9
+        alpha, beta = -inf, inf
 
         for child in s.action_results():
-            value = self.min_value(child, depth - 1, int(alpha), int(beta))
+            value = self.min_value(child, depth - 1, alpha, beta)
             if value > best_value:
                 best_value = value
                 best_state = child

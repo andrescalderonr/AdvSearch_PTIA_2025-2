@@ -1,7 +1,7 @@
 import unittest
 from src.gameImplementation import Connect4
 
-class TestConnect4(unittest.TestCase):
+class Connect4Tests(unittest.TestCase):
     """
     Unit tests for the Connect4 implementation.
 
