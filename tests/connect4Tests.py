@@ -1,4 +1,4 @@
-from gameImplementation import connect4
+from src.gameImplementation import Connect4
 
 game = connect4.start()
 

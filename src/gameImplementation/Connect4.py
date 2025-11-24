@@ -1,9 +1,7 @@
 from __future__ import annotations
 from typing import List, Optional
 from copy import deepcopy
-
-from stateGame.stateGame import StateGame
-
+from src.stateGame.StateGame import StateGame
 
 class Connect4(StateGame):
     """
