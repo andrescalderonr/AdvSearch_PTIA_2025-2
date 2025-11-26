@@ -836,6 +836,12 @@ class AlphaBetaEngine:
 
 ```
 
+Resultados de las pruebas:
+
+![](img/1.png)
+
+![](img/2.png)
+
 ## RETROSPECTIVA
 
 **1.** ¿Cuál fue el tiempo total invertido en el laboratorio por cada
